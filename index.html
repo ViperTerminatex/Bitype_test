@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitype</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="./index.html"> 
+            <img src="./Icons/home.png" width="50" height="50" class="navhome" title="home" alt="home_icon">
+        </a>
+        <img src="./Icons/pfp.png" width="50" height="50" class="navpfp" title="profile" alt="pfp_icon">
+        <a href="#contac us">
+            <img src="./Icons/Contac us.png" width="50" height="50" class="navcontacus" title="contac us" alt="call_icon">
+        </a>
+        <a href="../BITYPEE/main.hta" onclick="htadonwload()" download>
+            <img src="./Icons/download.png" width="50" height="50" class="navdownload" title="download" alt="donwload_icon">
+        </a>
+        <a href="#language" onclick="lansel()">
+            <img src="./Icons/Language.png" width="50" height="50" class="navlan" title="language" alt="language_icon">
+        </a>
+        <img src="./Icons/coffee.png" width="50" height="50" class="navcof" title="give me a coffee" alt="coffee_icon" onclick="coffegive()" id="coffeimg">
+        <a href="./codepage/index.html">
+            <img src="./Icons/code.png" width="50" height="50" class="navcode" title="code" alt="code_icon">
+        </a>
+        <a href="#welcomeh11">
+            <img src="./Icons/up arrow.png" width="50" height="50" class="uprarrow" title="go up" alt="up_arrow_icon">
+        </a>
+        <a href="./store/index.html"><img src="./Icons/store.png" width="50" height="50" class="navstore" title="store" alt="store-icon"></a>
+    </div>
+    <h1 class="h11" id="welcomeh11">welcome</h1>
+    <p class="infoBIT">Welcome to Bitype! Here, you can explore various codes and <span style="color: rgb(119, 118, 118);">download Bitype</span>for yourself. The Bitype text editor is perfect for <span style="color: rgb(119, 118, 118);">coding, planning, and more. Bitype is free and offers a wide range of tools coming soon</span>. It supports coding in any programming language and includes auto-correction features to assist you with your code or planning.</p>
+    <div class="vidBIT">
+        <p>
+    <video controls autoplay width="400" height="200">
+        <source src="./vids/BITYPE 2024-07-09 18-03-19.mp4">
+    </video>
+    </p>
+    <hr>
+    <p><span style="color: rgb(119, 118, 118);">Bitype is primarily designed for Java, but it supports other programming languages as well.</span>Besides coding, you can<span style="color: rgb(119, 118, 118);"> use Bitype for planning tasks. However, its main focus remains on coding</span></p>
+    <p id="javaimg">
+        <img src="./Icons/Java.png" width="200" height="200" alt="Java_icon">
+    </p>
+    <h5 id="otherLC">Other langauges:
+        <ul>
+            <li>C++</li>
+            <li>C#</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Rust</li>
+            <li>Python</li>
+            <li>TypeScript</li>
+        </ul>
+    </h5>
+    <h1>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    </h1>
+    <h1>IMAGES</h1>
+    <div class="imgCL">
+        <img src="./Icons/C++.png" alt="C++_icon" draggable="false">
+        <img src="./Icons/c.png" alt="C_icon" draggable="false">
+        <img src="./Icons/Java.png" alt="Java_icon" draggable="false">
+        <img src="./Icons/JS.png" alt="Js_icon" draggable="false">
+        <img src="./Icons/html5.png" alt="Html_icon" draggable="false">
+        <img src="./Icons/css.png" alt="CSS_icon" draggable="false">
+        <img src="./Icons/RUST.png" alt="Rust_icon" draggable="false">
+        <img src="./Icons/Python.png" alt="Python_icon" draggable="false">
+        <img src="./Icons/TS.png" alt="TS_icon" draggable="false">
+    </div>
+    <h1>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h1>
+    <br><br>
+    <br><br>
+    <p style="color: aliceblue;" id="pTB">Press start to open the bitype terminal app</p>
+    <button type="button" onclick="terminal()" class="bitypeTer">start</button>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <button type="button" id="moreinfoBtn" onclick="infowindow()" accesskey="i"></button>
+    <button id="cammandsS" accesskey="s" onclick="secretBtn()"></button>
+    <!-- <div class="footter">
+        <footer>
+            <h3>&copy; 2024 VIPER</h3>
+        </footer>
+    </div>     -->
+</body>
+</html>

@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 70px;
+    color:rgb(77, 73, 73);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color:deepskyblue;
+    color: white;
+}
+
+.nav img {
+    margin: 10px;
+}
+
+.nav{
+    background-color: rgb(71, 71, 71);
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.navhome{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navhome:hover{
+    filter: opacity(1);
+}
+
+.navhome:focus{
+    filter: opacity(1);
+}
+
+.navhome:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navpfp{
+    float: right;
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+    overflow: hidden;
+}
+
+.navpfp:hover{
+    filter: opacity(1);
+}
+
+.navpfp:focus{
+    filter: opacity(1);
+}
+
+.navpfp:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navcontacus{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navcontacus:hover{
+    filter: opacity(1);
+}
+
+.navcontacus:focus{
+    filter: opacity(1);
+}
+
+.navcontacus:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navdownload{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navdownload:hover{
+    filter: opacity(1);
+}
+
+.navdownload:focus{
+    filter: opacity(1);
+}
+
+.navdownload:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navlan{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navlan:hover{
+    filter: opacity(1);
+}
+
+.navlan:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navlan:focus{
+    filter: opacity(1);
+}
+
+.navcof{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navcof:hover{
+    filter: opacity(1);
+}
+
+.navcof:focus{
+    filter: opacity(1);
+}
+
+.navcof:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+/* .footter{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(71, 71, 71);
+    color: white;
+} */
+
+.h11{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+
+.navcode{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navcode:hover{
+    filter: opacity(1);
+}
+
+.navcode:focus{
+    filter: opacity(1);
+}
+
+.navcode:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navstore{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navstore:hover{
+    filter: opacity(1);
+}
+
+.navstore:focus{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navstore:active{
+    filter: opacity(1);
+}
+
+.uprarrow{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+    float: right;
+    overflow: hidden;
+}
+
+.uprarrow:hover{
+    filter: opacity(1);
+}
+
+.uprarrow:focus{
+    filter: opacity(1);
+}
+
+.uprarrow:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.infoBIT{
+    text-align: center;
+    text-indent: 2px;
+}
+
+.vidBIT{
+    text-align: center;
+}
+
+.vidBIT video{
+    cursor: pointer;
+    text-align: center;
+    filter: opacity(0.5);
+    transition: filter 1.2s;
+}
+
+.vidBIT video:hover{
+    filter: opacity(1);
+}
+
+.vidBIT video:focus{
+    filter: opacity(1);
+}
+
+.vidBIT video:active{
+    filter: opacity(1);
+}
+
+:fullscreen{
+    filter: opacity(0.8);
+}
+
+
+#javaimg{
+    text-align: center;
+}
+
+#javaimg img{
+    filter: opacity(0.6);
+    transition: filter 1.4s;
+}
+
+#javaimg img:hover{
+    filter: opacity(1);
+}
+
+#otherLC{
+    text-align: left;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+
+#otherLC ul{
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.imgCL{
+    columns: 5;
+    gap: 4; 
+}
+
+#cammandsS{
+    display: none;
+}
+
+.bitypeTer{
+    cursor: pointer;
+    padding: 5px 5px;
+    font-size: 3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+    filter: opacity(0.5);
+    transition: filter 1.2s;
+}
+
+.bitypeTer:hover{
+    filter: opacity(1);
+}
+
+.bitypeTer:active{
+    transform: scale(0.9);
+}
+
+#pTB{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#moreinfoBtn{
+    display: none;
+}

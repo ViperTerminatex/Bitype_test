@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color:deepskyblue;
+    color: white;
+}
+
+.nav{
+    background-color: rgb(71, 71, 71);
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.navhome{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navhome:hover{
+    filter: opacity(1);
+}
+
+.navhome:focus{
+    filter: opacity(1);
+}
+
+.navhome:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navpfp{
+    float: right;
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+    overflow: hidden;
+}
+
+.navpfp:hover{
+    filter: opacity(1);
+}
+
+.navpfp:focus{
+    filter: opacity(1);
+}
+
+.navpfp:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navcontacus{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navcontacus:hover{
+    filter: opacity(1);
+}
+
+.navcontacus:focus{
+    filter: opacity(1);
+}
+
+.navcontacus:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navdownload{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navdownload:hover{
+    filter: opacity(1);
+}
+
+.navdownload:focus{
+    filter: opacity(1);
+}
+
+.navdownload:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navlan{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navlan:hover{
+    filter: opacity(1);
+}
+
+.navlan:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navlan:focus{
+    filter: opacity(1);
+}
+
+.navcof{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navcof:hover{
+    filter: opacity(1);
+}
+
+.navcof:focus{
+    filter: opacity(1);
+}
+
+.navcof:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.navcode{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.navcode:hover{
+    filter: opacity(1);
+}
+
+.navcode:focus{
+    filter: opacity(1);
+}
+
+.navcode:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.filtercode{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 1.2em;
+    padding: 5px 4px;
+    cursor: pointer;
+}
+
+.Rbookd{
+    filter: opacity(0.5);
+    cursor: pointer;
+    transition: filter 1.2s;
+}
+
+.Rbookd:hover{
+    filter: opacity(1);
+}
+
+.Rbookd:focus{
+    filter: opacity(1);
+}
+
+.Rbookd:active{
+    filter: opacity(1);
+    transform: scale(0.9);
+}
+
+.Rbook{
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+    width: 350px;
+    height: 280px;
+    border-radius: 5px;
+    color: white;
+    border-color: rgb(100, 100, 100);
+    border-width: 3px;
+    border-style: solid;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+    transition-property:transform;
+    align-content: start;
+    transform: translateX(10px);
+}
