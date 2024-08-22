@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    cursor: url("./Deafult.cur"), auto;
     background-color: rgb(53, 53, 53);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -41,12 +42,13 @@ html{
 
 .navhome{
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
 }
 
 .navhome:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .navhome:focus{
@@ -61,13 +63,14 @@ html{
 .navpfp{
     float: right;
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
     overflow: hidden;
 }
 
 .navpfp:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .navpfp:focus{
@@ -81,12 +84,13 @@ html{
 
 .navcontacus{
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
 }
 
 .navcontacus:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .navcontacus:focus{
@@ -100,12 +104,13 @@ html{
 
 .navdownload{
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
 }
 
 .navdownload:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .navdownload:focus{
@@ -119,12 +124,13 @@ html{
 
 .navlan{
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
 }
 
 .navlan:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .navlan:active{
@@ -138,12 +144,13 @@ html{
 
 .navcof{
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
 }
 
 .navcof:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .navcof:focus{
@@ -175,12 +182,13 @@ html{
 
 .navcode{
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
 }
 
 .navcode:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .navcode:focus{
@@ -194,12 +202,13 @@ html{
 
 .navstore{
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
 }
 
 .navstore:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .navstore:focus{
@@ -213,7 +222,7 @@ html{
 
 .uprarrow{
     filter: opacity(0.5);
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     transition: filter 1.2s;
     float: right;
     overflow: hidden;
@@ -221,6 +230,7 @@ html{
 
 .uprarrow:hover{
     filter: opacity(1);
+    cursor: url("./Pointer.cur"), auto;
 }
 
 .uprarrow:focus{
@@ -242,7 +252,7 @@ html{
 }
 
 .vidBIT video{
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     text-align: center;
     filter: opacity(0.5);
     transition: filter 1.2s;
@@ -299,7 +309,7 @@ html{
 }
 
 .bitypeTer{
-    cursor: pointer;
+    cursor: url("./Pointer.cur"), auto;
     padding: 5px 5px;
     font-size: 3rem;
     border: none;
@@ -325,4 +335,86 @@ html{
 
 #moreinfoBtn{
     display: none;
+}
+
+textarea:hover{
+    cursor: url("./Type.cur"), auto;
+}
+
+a,button:hover{
+    cursor: url("./Pointer.cur"), auto;
+}
+
+h1,p,h2,h3,h4,h5,h6:hover{
+    cursor: url("./Type.cur"), auto;
+}
+body, img:hover{
+    cursor: url("./Deafult.cur"), auto;
+}
+
+.ulO:hover{
+    cursor: url("./Type.cur"), auto;
+}
+
+.WDYLATW{
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+    padding: 5px 5px;
+    font-size: 1.9rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.WDYLATW:hover{
+    outline: white 2px solid;
+}
+
+.WDYLATW:focus{
+    outline: white 2px solid;
+}
+
+.WDYLATW:active{
+    outline: white 2px solid;
+}
+
+textarea::-webkit-resizer {
+    cursor: url("./resize.cur"), auto;
+}
+
+.WDYLATW::spelling-error{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+    text-decoration-style: wavy;
+}
+
+.CommentBtn{
+    padding: 5px 5px;
+    font-size: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+    filter: opacity(0.5);
+    transition: filter 1.2s;
+}
+
+.CommentBtn:hover{
+    filter: opacity(1);
+}
+
+.CommentBtn:active{
+    transform: scale(0.9);
+}
+
+.CommentBtn:focus{
+    filter: opacity(1);
+}
+
+.comment{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
 }

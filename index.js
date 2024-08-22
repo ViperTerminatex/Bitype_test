@@ -1,4 +1,12 @@
 cammandsS = document.getElementById("cammandsS");
+const WDYLATW = document.getElementById("WDYLATW");
+commentV = WDYLATW.value;
+
+function Commented(){
+    var commentV = WDYLATW.value;
+    alert(commentV);
+}
+
 
 function htadonwload(){
     alert("this is not the actual one because we are having trouble getting the real text editor/IDE ready.")
@@ -77,5 +85,18 @@ Stay tuned for a wide range of upcoming features that will enhance your coding a
         infoW.close()
     }, 19000);
 
+}
+
+window.onload = function (){
+    Notification.requestPermission().then(permission => {
+        if (permission === "granted") {
+            new Notification("Bitype", {
+                body: "Welcome", // The text inside the notification
+                icon: "./Icons/bits.png", // Path to an icon image (optional)
+                tag: "unique-tag" // A tag to identify the notification (optional)
+            });
+        }
+    });
+    
 }
 

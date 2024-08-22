@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css">
-    <script src="index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitype</title>
 </head>
@@ -45,7 +44,7 @@
         <img src="./Icons/Java.png" width="200" height="200" alt="Java_icon">
     </p>
     <h5 id="otherLC">Other langauges:
-        <ul>
+        <ul id="ulO">
             <li>C++</li>
             <li>C#</li>
             <li>C</li>
@@ -84,10 +83,17 @@
     <br><br>
     <button type="button" id="moreinfoBtn" onclick="infowindow()" accesskey="i"></button>
     <button id="cammandsS" accesskey="s" onclick="secretBtn()"></button>
+    <div class="comment">
+    <textarea class="WDYLATW" id="WDYLATW" placeholder="what would you like to say about this site?" spellcheck="true" accesskey="c"></textarea>
+    <button class="CommentBtn" onclick="Commented()">Comment</button>
+    </div>
+    <a href="./comments/comments.html">comments</a>
     <!-- <div class="footter">
         <footer>
             <h3>&copy; 2024 VIPER</h3>
         </footer>
     </div>     -->
+    <script src="index.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>

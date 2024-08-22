@@ -1,0 +1,254 @@
+body{
+     margin: 0;
+     padding: 0;
+     cursor: url("../Deafult.cur"), auto;
+     background-color: rgb(53, 53, 53);
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     font-size: 1.2em;
+     text-decoration: none;
+     margin-top: 70px;
+     color:rgb(77, 73, 73);
+}
+ 
+::-webkit-scrollbar{
+     display: none;
+}
+ 
+html{
+     scroll-behavior: smooth;
+}
+
+a,button:hover{
+     cursor: url("../Pointer.cur"), auto;
+}
+
+h1,p,h2,h3,h4,h5,h6:hover{
+     cursor: url("../Type.cur"), auto;
+ }
+
+img,div:hover{
+     cursor: url("../Deafult.cur"), auto;
+}
+
+.COMS{
+     height: 600px;
+     width: 600px;
+     font-size: 1.9rem;
+     font-weight: bold;
+     color: aliceblue;
+     background-color: rgb(71, 71, 71);
+     border-radius: 5px;
+}
+
+.comments{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+}
+
+.navcode{
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+ }
+ 
+ .navcode:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .navcode:focus{
+     filter: opacity(1);
+ }
+ 
+ .navcode:active{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
+ 
+ .navstore{
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+ }
+ 
+ .navstore:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .navstore:focus{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
+ 
+ .navstore:active{
+     filter: opacity(1);
+ }
+ 
+ .uprarrow{
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+     float: right;
+     overflow: hidden;
+ }
+ 
+ .uprarrow:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .uprarrow:focus{
+     filter: opacity(1);
+ }
+ 
+ .uprarrow:active{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
+
+ ::selection{
+     background-color:deepskyblue;
+     color: white;
+ }
+ 
+ .nav img {
+     margin: 10px;
+ }
+ 
+ .nav{
+     background-color: rgb(71, 71, 71);
+     position: fixed;
+     top: 0;
+     width: 100%; 
+     z-index: 1000; 
+ }
+ 
+ .nav a{
+     text-decoration: none;
+ }
+ 
+ .navhome{
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+ }
+ 
+ .navhome:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .navhome:focus{
+     filter: opacity(1);
+ }
+ 
+ .navhome:active{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
+ 
+ .navpfp{
+     float: right;
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+     overflow: hidden;
+ }
+ 
+ .navpfp:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .navpfp:focus{
+     filter: opacity(1);
+ }
+ 
+ .navpfp:active{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
+ 
+ .navcontacus{
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+ }
+ 
+ .navcontacus:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .navcontacus:focus{
+     filter: opacity(1);
+ }
+ 
+ .navcontacus:active{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
+ 
+ .navdownload{
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+ }
+ 
+ .navdownload:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .navdownload:focus{
+     filter: opacity(1);
+ }
+ 
+ .navdownload:active{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
+ 
+ .navlan{
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+ }
+ 
+ .navlan:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .navlan:active{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
+ 
+ .navlan:focus{
+     filter: opacity(1);
+ }
+ 
+ .navcof{
+     filter: opacity(0.5);
+     cursor: url("../Pointer.cur"), auto;
+     transition: filter 1.2s;
+ }
+ 
+ .navcof:hover{
+     filter: opacity(1);
+     cursor: url("../Pointer.cur"), auto;
+ }
+ 
+ .navcof:focus{
+     filter: opacity(1);
+ }
+ 
+ .navcof:active{
+     filter: opacity(1);
+     transform: scale(0.9);
+ }
